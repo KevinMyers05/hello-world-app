@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TopNavBarComponent } from './navigation/top-nav-bar/top-nav-bar.component';
 import { BotNavBarComponent } from './navigation/bot-nav-bar/bot-nav-bar.component';
+import { MainPageComponent } from './navigation/main-page/main-page.component';
+import { MainPageSecondCardComponent } from './navigation/main-page-second-card/main-page-second-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopNavBarComponent,
-    BotNavBarComponent
+    BotNavBarComponent,
+    MainPageComponent,
+    MainPageSecondCardComponent
   ],
   imports: [
     BrowserModule,
