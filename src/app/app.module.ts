@@ -7,6 +7,7 @@ import { TopNavBarComponent } from './navigation/top-nav-bar/top-nav-bar.compone
 import { BotNavBarComponent } from './navigation/bot-nav-bar/bot-nav-bar.component';
 import { MainPageComponent } from './navigation/main-page/main-page.component';
 import { MainPageSecondCardComponent } from './navigation/main-page-second-card/main-page-second-card.component';
+import { CardGroupComponent } from './navigation/main-page/card-group/card-group.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { MainPageSecondCardComponent } from './navigation/main-page-second-card/
     TopNavBarComponent,
     BotNavBarComponent,
     MainPageComponent,
-    MainPageSecondCardComponent
+    MainPageSecondCardComponent,
+    CardGroupComponent
   ],
   imports: [
     BrowserModule,
