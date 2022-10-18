@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -17,6 +18,7 @@ import { LegendaryComponent } from './legendary/legendary.component';
 import { MythicalComponent } from './mythical/mythical.component';
 import { EventPokemonComponent } from './event-pokemon/event-pokemon.component';
 import { PokeCardGroupComponent } from './national-pokedex/poke-card-group/poke-card-group.component';
+import { UserInfoComponent } from './navigation/user-info.component';
 
 @NgModule({
   declarations: [
@@ -34,11 +36,13 @@ import { PokeCardGroupComponent } from './national-pokedex/poke-card-group/poke-
     LegendaryComponent,
     MythicalComponent,
     EventPokemonComponent,
-    PokeCardGroupComponent
+    PokeCardGroupComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
