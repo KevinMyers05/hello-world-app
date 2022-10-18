@@ -16,6 +16,7 @@ import { ForumsComponent } from './forums/forums.component';
 import { LegendaryComponent } from './legendary/legendary.component';
 import { MythicalComponent } from './mythical/mythical.component';
 import { EventPokemonComponent } from './event-pokemon/event-pokemon.component';
+import { PokeCardGroupComponent } from './national-pokedex/poke-card-group/poke-card-group.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { EventPokemonComponent } from './event-pokemon/event-pokemon.component';
     ForumsComponent,
     LegendaryComponent,
     MythicalComponent,
-    EventPokemonComponent
+    EventPokemonComponent,
+    PokeCardGroupComponent
   ],
   imports: [
     BrowserModule,
