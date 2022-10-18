@@ -8,6 +8,14 @@ import { BotNavBarComponent } from './navigation/bot-nav-bar/bot-nav-bar.compone
 import { MainPageComponent } from './navigation/main-page/main-page.component';
 import { MainPageSecondCardComponent } from './navigation/main-page-second-card/main-page-second-card.component';
 import { CardGroupComponent } from './navigation/main-page/card-group/card-group.component';
+import { NewsComponent } from './news/news.component';
+import { ByNameComponent } from './by-name/by-name.component';
+import { HomelayoutComponent } from './homelayout/homelayout.component';
+import { NationalPokedexComponent } from './national-pokedex/national-pokedex.component';
+import { ForumsComponent } from './forums/forums.component';
+import { LegendaryComponent } from './legendary/legendary.component';
+import { MythicalComponent } from './mythical/mythical.component';
+import { EventPokemonComponent } from './event-pokemon/event-pokemon.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +24,15 @@ import { CardGroupComponent } from './navigation/main-page/card-group/card-group
     BotNavBarComponent,
     MainPageComponent,
     MainPageSecondCardComponent,
-    CardGroupComponent
+    CardGroupComponent,
+    NewsComponent,
+    ByNameComponent,
+    HomelayoutComponent,
+    NationalPokedexComponent,
+    ForumsComponent,
+    LegendaryComponent,
+    MythicalComponent,
+    EventPokemonComponent
   ],
   imports: [
     BrowserModule,
