@@ -1,0 +1,34 @@
+<div class="container">
+    <div class="row">
+        <div class="col-8">
+            <form #postform="ngForm" (ngSubmit)="bulbaAdd(postform.value)">
+
+                <div class="input-group">
+                    <span class="input-group-text">Image Path</span>
+                    <input type="text" class="form-control" ngModel name="Pokemonimg">
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-text">Pokemon</span>
+                    <input type="text" class="form-control" required ngModel name="name">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">Type</span>
+                    <input type="text" class="form-control" ngModel name="type">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">Pokedex Number</span>
+                    <input type="text" class="form-control" ngModel name="number">
+                </div>
+
+                <button class="btn btn-dark" type="submit" [disabled]="!postform.valid">
+                    Add Pokemon
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</div>
